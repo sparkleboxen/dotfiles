@@ -5,12 +5,6 @@ export EDITOR=vim
 
 eval "$(starship init bash)"
 
-#export GVIMINIT='let $MYGVIMRC="$XDG_CONFIG_HOME/vim/gvimrc" | source $MYGVIMRC'
-#export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
-#export VIMINIT='let $MYVIMRC="$HOME/.config/vim/vimrc" | source $MYVIMRC'
-
-export VIMINIT='source "$XDG_CONFIG_HOME/vim/vimrc"'
-
 alias btop="$HOME/.local/bin/distrobox/btop --utf-force"
 alias dbe="distrobox enter fedora-workstation"
 alias firefox="flatpak run org.mozilla.firefox"
