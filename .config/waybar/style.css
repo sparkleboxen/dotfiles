@@ -1,5 +1,7 @@
-@define-color white      #F2F2F2;
-@define-color black      #000203;
+/*@define-color white      #F2F2F2; */
+@define-color white      #FFFFFF;
+/*@define-color black      #000203; */
+@define-color black      #000000;
 @define-color text       #BECBCB;
 @define-color lightgray  #686868;
 @define-color darkgray   #353535;
@@ -20,6 +22,7 @@
   /*font-family: Iosevka, Material Design Icons Desktop; */
   font-family: Noto Sans, Material Design Icons Desktop;
   font-size: 14px;
+  font-weight: bold;
 }
 
 window#waybar {

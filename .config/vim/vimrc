@@ -1,6 +1,8 @@
 set termguicolors
 colorscheme monokai_pro
 
+set number
+
 set runtimepath^=$XDG_CONFIG_HOME/vim
 set runtimepath+=$XDG_DATA_HOME/vim
 set runtimepath+=$XDG_CONFIG_HOME/vim/after
