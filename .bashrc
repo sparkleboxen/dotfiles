@@ -1,6 +1,5 @@
-#PATH="/usr/local/bin:/usr/bin:/opt/local/bin:/opt/local/libexec/gnubin:$HOME/.local/bin:$HOME/.local/share/cargo"
-
-export PATH=~/.local/bin:/usr/local/sbin:/usr/local/bin:$PATH
+#export PATH=~/.local/bin:/usr/local/sbin:/usr/local/bin:$PATH
+#export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
 export EDITOR=vim
 
 eval "$(starship init bash)"
