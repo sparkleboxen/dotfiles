@@ -19,4 +19,13 @@ set viewdir=$XDG_STATE_HOME/vim/view     | call mkdir(&viewdir,   'p')
 
 if !has('nvim') | set viminfofile=$XDG_STATE_HOME/vim/viminfo | endif
 
-colorscheme monokai_pro
+" Plugins will be downloaded under the specified directory.
+call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '$XDG_CONFIG_HOME/vim/plugged')
+
+" Declare the list of plugins.
+Plug 'patstockwell/vim-monokai-tasty'
+
+" List ends here. Plugins become visible to Vim after this call.
+call plug#end()
+
+colorscheme vim-monokai-tasty
